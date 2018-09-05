@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                npm --version
+                bat 'npm --version'
             }
         }
     }
